@@ -1,4 +1,4 @@
-# Black Hole Ray Casting Simulation
+# Black Hole Ray Casting
 
 The purpose of this project is to simulate a Schwarzschild black hole surrounded by a light-emitting accretion disc using ray casting: A set of light rays corresponding to pixels on an observer's screen is initialized and then cast using the geodesic equation for lightlike particles.
 
