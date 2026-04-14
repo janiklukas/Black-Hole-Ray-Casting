@@ -34,4 +34,4 @@ $$\dot X_6=\frac{1}{2}(2X_2-3)[X_7^2+\sin^2(X_3)\,X_8^2].$$
 
 In order to enable detecting collisions with the accretion disc, both the current and previous state vector are saved at each time step. Thus a light ray is described by a $2\times 8$ matrix at any given time. After each step, we check if the ray has crossed the $\theta=\pi/2$ plane that contains the disc between steps. In this case, an interval search is performed to find the precise crossing point and check if it lies within the accretion disc. If yes, the pixel corresponding to the ray is coloured orange.
 
-If any ray comes too close to the event horizon or moves too far away from the black hole, the evolution is stopped and the associated pixel is coloured black.
+If any ray comes too close to the event horizon or moves too far away from the black hole, the evolution is interrupted and the associated pixel is coloured black.
