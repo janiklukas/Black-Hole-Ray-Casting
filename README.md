@@ -16,7 +16,7 @@ The initial light rays are then transformed from the screen coordinates to flat 
 
 ## Ray Evolution
 
-The time evolution of $X(\lambda)$ is governed by the following equations derived from the geodesic equation:
+The time evolution of $X(\lambda)$ is governed by the following ODE system from the geodesic equation:
 
 $$\dot X_1=X_5,\quad\dot X_2=X_6,\quad\dot X_3=X_7,\quad\dot X_4=X_8;$$
 
