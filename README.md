@@ -5,7 +5,9 @@ The purpose of this project is to simulate a Schwarzschild black hole surrounded
 ## Ray Initialization
 
 The trajectory of a given light ray is described by a state vector with $8$ components:
+
 $$X(\lambda)=\big(t(\lambda),r(\lambda),\theta(\lambda),\varphi(\lambda);\dot t(\lambda),\dot r(\lambda),\dot\theta(\lambda),\dot\varphi(\lambda)\big)$$
+
 where $\lambda$ is the curve parameter.
 
 Each light ray starts at the camera location given by $(r_0,\theta_0,0)$ in Schwarzschild coordinates. The screen center is located some distance $d$ closer to the singularity, i.e. at $(r_0-d,\theta_0,0)$. To determine the locations of the pixels on the screen, a Cartesian coordinate system with the camera on its $x$-axis is used. The initial velocity of a given ray can then be calculated in the screen coordinates as the difference between the camera location and that of the associated pixel. 
