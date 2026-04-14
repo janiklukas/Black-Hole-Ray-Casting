@@ -26,7 +26,7 @@ $$\dot X_6=\frac{1-X_2}{2X_2^3}(X_5)^2 + \frac{1}{2X_2(X_2-1)}X_6^2 + (X_2-1)[X_
 
 $$\dot X_7=-\frac{2}{X_2} X_6 X_7 + \sin(X_3) \cos(X_3)\,X_8^2$$
 
-&&\dot X_8= -\frac{2}{X_2} X_6 X_8 - 2\cot(X_3)\,X_7X_8$$
+$$\dot X_8= -\frac{2}{X_2} X_6 X_8 - 2\cot(X_3)\,X_7X_8$$
 
 where we have set $c=1$ and $R_\text{S}=1$. The equation for $\dot X_6$ can be simplified using the lightlike condition, yielding
 
